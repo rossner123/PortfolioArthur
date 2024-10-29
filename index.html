@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+
+<header>
+    <nav>
+    <a href="#info">Sobre Mim</a>
+    <a href="#sobremim">Experiência de Mercado</a>
+    <a href="#expdemercado">Currículo Escolar</a>
+    <a href="#curriculoescolar">Projetos</a>
+    <a href="#Contato">Contato</a>
+</nav>
+    <img id="pfp" src="IMAGENS/MINHA FOTO.jpeg" alt="minha foto">
+    <div id="info">
+        <h1>Arthur Machado</h1>
+        <div id="informacoes">
+            <p id="idade">16 anos</p>
+            <p id="escola"> Estudante do Ensino Médio Senac</p>
+        </div>
+
+        <div class="icones">
+            <a href="https://www.instagram.com/arthur.machaado/" target="_blank">
+                <img id="instaicone" src="IMAGENS/insta.png" alt="Instagram">
+            </a>
+
+            <a href="https://github.com/arthurmachadooo" target="_blank">
+                <img id="giticone" src="IMAGENS/GitHub-Mark-ea2971cee799.png" alt="GitHub">
+            </a>
+        </div>
+
+       
+</header>
+
+<body>
+    <a href="sobre mim.html" id="sobremim">SOBRE MIM</a>
+   
+    <div id="exparthur">
+        <h4 id="expdemercado">Minhas Experiências No Mercado</h4> 
+        <input type="checkbox" id="toggle" class="hidden">
+        <label for="toggle" class="toggle-label">Clique aqui para ver minhas Experiências e Especialidades</label>
+    
+        <div class="especialidades">
+    
+            <ul>
+                <li>- Limpeza de CPU</li>
+                <li>- Ajudante de Limpeza em Compressores de ar comprimido</li>
+                <li>- Professor de Aula de vôlei para crianças </li>
+            </ul>
+           
+        </div>
+    </div>
+    
+
+    <h1 id="curriculoescolar">Currículo Escolar</h1>
+    <ul id="escolas">
+        <li>Flores da Cunha (2015/2024)</li>
+        <li>Senac São Leopoldo (Atualmente)</li>
+        <li>Curso de Inglês Senac (Atualmente)</li>
+    </ul>
+<br>
+<br>
+<br>
+<br>
+<br>
+    <h1 id="Meusprojetos">Meus Projetos Software</h1>
+    
+    <img id="projeto1" src="IMAGENS/projeto 1.png" alt="projeto">
+    <h5 id="textprojeto">Esse projeto é uma simulação de layout de uma loja, uma tarefa criada pelos professores do Senac,<br> essa é a página de entrada, onde tem 3 fotos iniciais e logo em cima tem <br>os links direcionando para outras páginas, por exemplo estoque e funcionários.</h5>
+    <br>
+    
+    <img id="projeto2" src="IMAGENS/projeto 2.png" alt="projeto">
+    <h5 id="textprojeto">O projeto consiste em um jogo que, cada vez que você clica no quadrado verde,<br> ele aumenta a pontuação. Caso você não clique a tempo, a pontuação fecha.</h5>
+    <br>
+
+</body>
+
+<footer>
+    <div id="Contato">
+        <h3>Contato</h3>
+        <form action="https://mail.google.com/mail/u/0/?hl=pt-BR&pli=1#inbox?compose=CllgCJZWPhHdkGFXdkzzJvlFJpwgmppnSKrBHGkWGGJdjpXbfMFmQWKHwLZQXjFBWSPcFFcvWJB" method="POST" target="_blank">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+    <p>Todos Direitos Reservados a Arthur Machado</p>
+</footer>
+
+</html>
